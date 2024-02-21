@@ -49,7 +49,7 @@ export default function Daily() {
     <Box m="1rem">
       <Header title="DAILY SALES" subtitle="Chart of daily sales" />
       <Box height="75vh">
-        <Box display="flex" justifyContent="flex-end" gap="1rem">
+        <Box display="flex" justifyContent="flex-end" gap='4px'>
           <DatePicker
             selected={startDate}
             onChange={(date) => setStartDate(date)}

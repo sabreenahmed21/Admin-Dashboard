@@ -98,7 +98,7 @@ export default function Overview({ isDashboard = false, view }) {
           orient: "bottom",
           tickSize: 5,
           tickPadding: 5,
-          tickRotation: 0,
+          tickRotation: 90,
           legend: isDashboard ? "" : "Month",
           legendOffset: 36,
           legendPosition: "middle",
@@ -108,7 +108,7 @@ export default function Overview({ isDashboard = false, view }) {
           tickValues: 5,
           tickSize: 5,
           tickPadding: 5,
-          tickRotation: 0,
+          tickRotation: 90,
           legend: isDashboard
             ? ""
             : `Total ${view === "sales" ? "Sales" : "Units"} for Year`,

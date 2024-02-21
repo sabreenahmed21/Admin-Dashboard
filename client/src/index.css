@@ -34,3 +34,7 @@ body,
   background: #525252;
   border-radius: 0.7rem;
 }
+
+.text-link {
+  text-decoration: none;
+}

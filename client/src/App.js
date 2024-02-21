@@ -20,6 +20,8 @@ import Monthly from "Pages/Monthly";
 import Breakdown from "Pages/Breakdown";
 import Admin from "Pages/Admin";
 import Performance from "Pages/Performance";
+import NotFound from "Pages/NotFound";
+
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
@@ -43,6 +45,7 @@ function App() {
               <Route path="/breakdown" element={<Breakdown />}/>
               <Route path="/admin" element={<Admin />}/>
               <Route path='/performance' element={<Performance />}/>
+              <Route path="*" element={<NotFound />}/>
             </Route>
           </Routes>
         </ThemeProvider>
